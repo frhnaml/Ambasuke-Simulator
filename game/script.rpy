@@ -1,33 +1,25 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-
+﻿# script.rpy
 
 # The game starts here.
-
 label start:
+    "Welcome to the Ambasuke visual novel!"
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    menu:
+        "Start Chapter 1":
+            jump chapter1_start
+        
+        # "Start Chapter 2":
+        #     jump chapter2_start
 
-    scene bg room
+        # "Start Chapter 3":
+        #     jump chapter3_start
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+        # "Start Chapter 4":
+        #     jump chapter4_start
 
-    show eileen happy
+        # "Start Chapter 5":
+        #     jump chapter5_start
 
-    # These display lines of dialogue.
+# Add more options as needed for additional chapters
 
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
-    return
+return
