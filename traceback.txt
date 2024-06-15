@@ -1,24 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 9, in script
-    e "Welcome to the Ambasuke visual novel!"
-Exception: Sayer 'e' is not defined.
+  File "game/script.rpy", line 7, in script
+    init python:
+  File "game/script.rpy", line 9, in <module>
+    from linkedlist import LinkedList
+ModuleNotFoundError: No module named 'linkedlist'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 9, in script
-    e "Welcome to the Ambasuke visual novel!"
-  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
-    Say.execute(self)
-  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'e' is not defined.
+  File "game/script.rpy", line 7, in script
+    init python:
+  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 9, in <module>
+    from linkedlist import LinkedList
+ModuleNotFoundError: No module named 'linkedlist'
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Ambasuke Simulator 1.0
-Sat Jun 15 21:35:56 2024
+Sat Jun 15 22:00:20 2024
