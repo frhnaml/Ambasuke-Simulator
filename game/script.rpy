@@ -1,10 +1,14 @@
 ﻿# script.rpy
 
 # Define a function to handle nodes in a linked list style
-define e = Character("Narrator")
+define e = Character('Epstein', color="E2BBE9", image='Epstein')
+
+image Epstein faggot = "Epstein faggot.png"
 
 # The game starts here.
 label start:
+
+    show Epstein faggot
     e "Welcome to the Ambasuke visual novel!"
     e "In this game, you will make choices that lead to different outcomes."
 
@@ -12,6 +16,7 @@ label start:
 
 # Node 1
 label node1:
+    show Epstein faggot
     e "You wake up in a mysterious place. You have no idea how you got there."
     e "Do you want to explore or stay where you are?"
     menu:

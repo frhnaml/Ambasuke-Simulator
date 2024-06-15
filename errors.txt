@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 26: expected menuitem
-    $ choice_1_text = node.choices[0].text
-    ^
+File "game/script.rpy", line 4: invalid syntax
+    Character("EpsteinFurryGayLover" image="Epstein.png")
+                                      ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jun 15 21:18:48 2024
+Sat Jun 15 21:35:23 2024
