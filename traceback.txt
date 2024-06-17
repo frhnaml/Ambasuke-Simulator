@@ -1,26 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 7, in script
-    init python:
-  File "game/script.rpy", line 9, in <module>
-    from linkedlist import LinkedList
-ModuleNotFoundError: No module named 'linkedlist'
+  File "game/script.rpy", line 72, in script
+    jump expression story.get(current_node)
+ScriptError: could not find label 'node3_explore_yes'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 7, in script
-    init python:
-  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 9, in <module>
-    from linkedlist import LinkedList
-ModuleNotFoundError: No module named 'linkedlist'
+  File "game/script.rpy", line 72, in script
+    jump expression story.get(current_node)
+  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'node3_explore_yes'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Ambasuke Simulator 1.0
-Sat Jun 15 22:00:20 2024
+Mon Jun 17 21:20:03 2024

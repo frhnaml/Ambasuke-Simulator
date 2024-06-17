@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 4: invalid syntax
-    Character("EpsteinFurryGayLover" image="Epstein.png")
-                                      ^
+File "game/script.rpy", line 95: expected menuitem
+    $ current_node = 5
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jun 15 21:35:23 2024
+Mon Jun 17 21:14:35 2024

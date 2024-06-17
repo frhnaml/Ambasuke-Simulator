@@ -1,4 +1,4 @@
-# linkedlist.rpy
+
 
 # Node class to store data and the next node reference
 class Node:
