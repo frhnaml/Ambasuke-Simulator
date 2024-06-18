@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 72, in script
+  File "game/script.rpy", line 144, in script
     jump expression story.get(current_node)
-ScriptError: could not find label 'node3_explore_yes'.
+ScriptError: could not find label 'scene1A1A'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 72, in script
+  File "game/script.rpy", line 144, in script
     jump expression story.get(current_node)
   File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\ast.py", line 1698, in execute
     rv = renpy.game.script.lookup(target)
   File "C:\Users\haeri\Downloads\Programs\renpy-8.2.1-sdk\renpy\script.py", line 1103, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'node3_explore_yes'.
+ScriptError: could not find label 'scene1A1A'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Ambasuke Simulator 1.0
-Mon Jun 17 21:20:03 2024
+Tue Jun 18 21:46:56 2024

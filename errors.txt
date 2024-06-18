@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 95: expected menuitem
-    $ current_node = 5
+File "game/script.rpy", line 56: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    menu:
     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Mon Jun 17 21:14:35 2024
+Tue Jun 18 20:31:49 2024

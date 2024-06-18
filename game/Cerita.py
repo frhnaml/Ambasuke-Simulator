@@ -1,5 +1,3 @@
-
-
 # Node class to store data and the next node reference
 class Node:
     def __init__(self, data, next_node=None):
