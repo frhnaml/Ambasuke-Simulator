@@ -147,23 +147,6 @@ label scene1A1:
             $ current_node = 16
             jump expression story.get(current_node)
 
-label scene1A1A:
-    characterSampingan "Wah, ini luar biasa! Aku ingin mencoba lebih banyak makanan ajaib!"
-    kucing "Bagus! Aku punya banyak makanan lain yang bisa kamu coba."
-    e "Kucing itu memberikan Jaka berbagai macam makanan ajaib. Setiap makanan memberikan kekuatan kartun yang berbeda. Jaka sangat senang dan menghabiskan waktu seharian bermain dengan kekuatan barunya."
-    e "Akhirnya, Jaka menemukan makanan yang bisa mengembalikannya ke wujud normal. Ia menyimpan makanan ajaib lainnya untuk digunakan di kemudian hari."
-    e "Jaka pulang ke rumah dengan hati gembira, siap untuk petualangan baru di masa depan dengan kekuatan barunya."
-    return
-
-label scene1A1B:
-    characterSampingan "Oh tidak, apa yang terjadi padaku? Tom! Tolong aku!"
-    e "Jaka panik dan berlari mencari Tom. Ketika menemukan Tom, ia menjelaskan apa yang terjadi."
-    kucing "Tenang Jaka, aku akan membantumu."
-    e "Tom mencoba berbagai cara untuk mengembalikan Jaka ke wujud normal, tetapi tidak ada yang berhasil. Jaka mulai putus asa."
-    e "Hari demi hari berlalu, dan Jaka harus belajar hidup dengan tubuh kartunnya. Meski pada awalnya sulit, lambat laun Jaka mulai menerima kenyataan dan menemukan cara untuk menggunakan kekuatannya untuk membantu orang lain."
-    e "Walau Jaka tidak pernah bisa kembali sepenuhnya seperti semula, ia menemukan makna baru dalam hidupnya dengan membantu orang lain dengan kekuatan kartunnya."
-    return
-
 label scene1A2:
     kucing "Baiklah, pegang ini!"
     e "Tom memberikan sayap ajaib kepada Jaka."
@@ -176,28 +159,6 @@ label scene1A2:
         "Jaka terbang rendah dan mencoba mendarat di tempat aman.":
             $ current_node = 18
             jump expression story.get(current_node)
-
-label scene1A2A:
-    e "Jaka terbang tinggi ke langit, menjelajahi dunia dari atas. Pemandangan yang ia lihat sangat menakjubkan; gunung, lautan, dan kota-kota terlihat begitu kecil dari ketinggian."
-    e "Jaka merasa sangat bebas dan bahagia, melayang di udara seperti burung."
-    jaka "Ini luar biasa! Aku bisa melihat seluruh dunia dari sini!"
-    e "Setelah beberapa jam menikmati pemandangan, Jaka memutuskan untuk kembali ke tanah. Dia menemukan tempat yang aman untuk mendarat."
-    e "Ketika mendarat, sayap ajaibnya menghilang dengan perlahan."
-    kucing "Bagaimana rasanya terbang, Jaka?"
-    jaka "Itu pengalaman yang tak terlupakan. Terima kasih!"
-    e "Jaka pulang dengan hati yang penuh kebahagiaan dan kenangan indah dari petualangannya di langit. Dia tahu bahwa dia selalu bisa mengandalkan kucing untuk petualangan ajaib di masa depan."
-    return
-
-label scene1A2B:
-    e "Jaka terbang rendah, menikmati sensasi terbang di dekat tanah. Ia merasakan angin di wajahnya dan melihat detail pemandangan dengan lebih jelas."
-    jaka "Aku harus mendarat dengan hati-hati."
-    e "Jaka mencari tempat yang aman untuk mendarat. Setelah menemukan lapangan terbuka, dia mendarat dengan lembut."
-    e "Sayap ajaibnya menghilang dengan perlahan, dan Jaka merasa sangat puas dengan petualangan terbangnya."
-    kucing "Apakah kamu menikmati terbang, Jaka?"
-    jaka "Sangat! Itu pengalaman yang luar biasa. Terima kasih banyak!"
-    e "Jaka pulang dengan hati yang penuh kebahagiaan. Dia tahu bahwa dia bisa menghadapi apa saja dengan keajaiban yang telah ia alami."
-    e "Jaka tersenyum dan berpikir tentang petualangan-petualangan seru lainnya yang mungkin akan ia hadapi di masa depan."
-    return
 
 label scene1B1:
     kucing "Betul! Layang-layang punya ekor tapi bukan hewan. Ayo, ikut aku!"
@@ -212,27 +173,6 @@ label scene1B1:
             $ current_node = 20
             jump expression story.get(current_node)
 
-label scene1B1A:
-    e "Jaka memutuskan untuk pulang ke rumah. Sebelum pergi, kucing itu memberikan Miau, seekor kucing kecil yang lucu, sebagai teman."
-    jaka "Terima kasih atas semuanya! Aku akan merindukan tempat ini, tapi aku senang bisa membawa Miau bersamaku."
-    kucing "Jangan khawatir, Jaka. Kamu selalu bisa kembali ke Dunia Lucu kapan saja."
-    e "Jaka berjalan melalui pintu dan tiba-tiba dia berada di kamarnya sendiri. Miau mengikuti di belakangnya."
-    e "Dengan Miau di sisinya, Jaka merasa lebih bahagia dan tidak pernah merasa kesepian lagi. Mereka berdua menjadi sahabat yang tak terpisahkan."
-    e "Setiap kali Jaka ingin petualangan baru, ia tahu bahwa Dunia Lucu selalu menunggunya."
-    e "Jaka menjalani hidupnya dengan penuh keceriaan dan kenangan indah dari Dunia Lucu."
-    return
-
-label scene1B1B:
-    e "Jaka memutuskan untuk tinggal lebih lama di Dunia Lucu. Tempat itu penuh dengan keajaiban dan petualangan yang tak ada habisnya."
-    jaka "Aku ingin menjelajahi lebih banyak tempat di Dunia Lucu. Terlalu banyak yang belum aku lihat."
-    kucing "Bagus sekali, Jaka! Mari kita mulai petualangan baru!"
-    e "Kucing itu membawa Jaka ke berbagai tempat yang menakjubkan. Mereka bertemu makhluk-makhluk aneh dan menikmati petualangan yang luar biasa."
-    e "Suatu hari, Jaka menemukan sebuah gua tersembunyi yang belum pernah dilihat oleh siapapun sebelumnya. Di dalamnya, dia menemukan harta karun dan artefak ajaib."
-    jaka "Ini luar biasa! Tempat ini penuh dengan misteri dan keajaiban."
-    e "Jaka memutuskan untuk menjadikan Dunia Lucu sebagai rumah keduanya. Setiap hari adalah petualangan baru, dan dia belajar banyak hal tentang dunia dan dirinya sendiri."
-    e "Dalam hatinya, Jaka tahu bahwa dia telah menemukan tempat yang benar-benar ajaib, di mana impian menjadi kenyataan."
-    return
-
 label scene1B2:
     kucing "Salah! Tapi tidak apa-apa, kamu masih punya satu kesempatan lagi. Apa yang selalu di depanmu tetapi tidak pernah bisa kamu lihat?"
     menu:
@@ -243,27 +183,6 @@ label scene1B2:
         "Bayangan":
             $ current_node = 22
             jump expression story.get(current_node)
-
-label scene1B2A:
-    e "Jaka berpikir keras dan akhirnya menjawab."
-    jaka "Masa depan!"
-    kucing "Salah lagi, Jaka! Jawabannya bukan itu."
-    e "Tiba-tiba, lantai di bawah Jaka terbuka dan dia jatuh ke dalam kegelapan yang dalam."
-    jaka "Aaaahhh!"
-    e "Jaka terjebak di dunia yang suram dan penuh dengan ketakutan. Dia mencoba mencari jalan keluar, tapi setiap langkah hanya membawanya lebih dalam ke dalam kegelapan."
-    e "Meski berusaha keras, Jaka tidak bisa menemukan jalan kembali ke dunia nyata. Dia terjebak selamanya dalam dunia teka-teki yang tak berujung."
-    return
-
-label scene1B2B:
-    e "Jaka berpikir keras dan akhirnya menjawab."
-    jaka "Bayangan!"
-    kucing "Betul sekali! Kamu memang pintar, Jaka."
-    e "Pintu besar muncul di depan Jaka, memancarkan cahaya terang yang menyilaukan."
-    kucing "Lewat pintu ini, kamu bisa kembali ke rumah."
-    e "Jaka tersenyum lega dan melangkah melalui pintu. Seketika, dia menemukan dirinya kembali di kamarnya, aman dan sehat."
-    jaka "Terima kasih, kucing! Aku tidak akan melupakan petualangan ini."
-    e "Dengan kenangan indah dari Dunia Lucu, Jaka menjalani hari-harinya dengan lebih ceria dan penuh semangat. Dia tahu bahwa kapan saja dia merasa bosan atau kesepian, petualangan selalu menunggunya di suatu tempat yang ajaib."
-    return
 
 label scene2A1:
     pohon "Ayo, mari kita menari!"
