@@ -1,6 +1,10 @@
 ﻿I'm sorry, but errors were detected in your script. Please correct the
 errors listed below, and try again.
-                   ^
 
-Ren'Py Version: Ren'Py 8.2.3.24061702
-Wed Jun 19 20:04:38 2024
+
+File "game/script.rpy", line 77: expected menuitem
+    show jaka ss at left
+    ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Thu Jun 20 10:42:04 2024

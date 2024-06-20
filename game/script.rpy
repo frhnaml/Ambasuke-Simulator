@@ -70,7 +70,9 @@ label scene1:
     e "Kucing itu menyapa Jaka dengan ramah."
     hide jaka ss
 
+    show tom samurai
     kucing "Halo, manusia! Namaku Tom. Apa yang membawamu ke sini?"
+    hide tom samurai
     menu:
         "Jaka bertanya kepada kucing tentang dunia ini.":
             $ current_node = 3
