@@ -47,7 +47,7 @@ init python:
 # The game starts here.
 label start:
     scene bg class
-
+    with fade 
     e "Jaka, seorang pemuda yang suka petualangan, suatu hari menemukan pintu misterius di dalam lemari tuanya. Karena penasaran, dia memutuskan untuk masuk ke dalam pintu tersebut."
     e "Tiba-tiba, dia menemukan dirinya di dunia lain yang penuh dengan makhluk aneh dan lucu."
 
@@ -62,8 +62,13 @@ label start:
 
 #Definisikan isi Node 
 label scene1:
+    
+    show bg hutan
+
+    show jaka ss at left
     e "Jaka terkejut melihat seekor kucing yang sedang membaca buku dan bisa berbicara."
     e "Kucing itu menyapa Jaka dengan ramah."
+    hide jaka ss
 
     kucing "Halo, manusia! Namaku Tom. Apa yang membawamu ke sini?"
     menu:
